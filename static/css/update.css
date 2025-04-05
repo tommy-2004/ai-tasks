@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #ede9fe, #f3e8ff);
+    margin: 0;
+    padding: 0;
+    color: #1f2937;
+}
+
+.content {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.6rem;
+    color: #7c3aed;
+    margin-bottom: 30px;
+}
+
+/* Form */
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #d8b4fe;
+    border-radius: 14px;
+    background-color: #faf5ff;
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #a78bfa;
+    background-color: #ffffff;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    background: linear-gradient(to right, #a78bfa, #8b5cf6);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, #7c3aed, #6d28d9);
+    transform: translateY(-2px);
+}
