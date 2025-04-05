@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ title }}</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" /> -->
+    {% if css_file %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/' + css_file + '.css') }}" />
+    {% endif %}
+</head>
+
+<body>
+    {% block body %}
+    {% endblock %}
+    <!-- <script src="{{ url_for('static', filename='js/main.js') }}"></script> -->
+</body>
+
+</html>
