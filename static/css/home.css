@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #f0f4ff, #e0f2fe);
+    margin: 0;
+    padding: 0;
+    color: #1f2937;
+}
+
+.content {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 16px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+    background: #f1f5f9;
+    font-weight: 600;
+    color: #374151;
+}
+
+td a {
+    color: #3b82f6;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+td a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+/* Form */
+.form {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 12px 18px;
+    width: 70%;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2563eb;
+}
